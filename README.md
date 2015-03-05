@@ -1,5 +1,18 @@
 # Technique
-A project website build to help students practice BIG-O notation. Uses SQL , php, javascript , html css.
+A project website build to help students practice BIG-O notation. Uses SQL , php, javascript , html css. Built this site to implement and put into action some of skills I've learned throughout undergrad, web development, database management. 
+
+## Database Schema (Queries done via querys.php)
+This schemas been working great, I’m not doing many inner joins to access the
+data that I need so the structure is okay. This schema was implemented in MySQL
+workbench and then directly imported onto MySQL on my local host.
+Each user is assigned a role (which has a role name) via the users_roles table.
+The question interaction tracks a users current question as well as there previous
+questions and its outcome(got_correct) so we don’t assign a user the same question more
+than once.
+The question table question_file and the solution_file (which are the choices for each
+question), the difficulty is currently unused , but we can use this and the users score to
+potentially scale questions 
+
 
 ##Detailed List of Files
 /technique/assets						=	Folder	containing	the	questions	and	answers	for	safe	
