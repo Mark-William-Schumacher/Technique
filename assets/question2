@@ -1,0 +1,13 @@
+<pre>
+def mystery2(numbers): </br>
+    n = len(numbers) </br>
+    size = n-1 </br>
+    while size > 0: </br>
+        i = 0 </br>
+        while i < n: </br>
+            if numbers[i] > numbers[size]: </br>
+                numbers[i] += 1 </br>
+                numbers[size] += 1 </br>
+            i = i + 1 </br>
+        size = size / 2 # integer arithmetic, rounded down </br>
+</pre> </br>

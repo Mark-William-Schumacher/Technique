@@ -1,0 +1,37 @@
+import java.util.HashSet;
+
+public class Main {
+	
+	public boolean getRepeatedSequence(String input) {
+		char[] inputArray = input.toCharArray();
+		HashSet<String> subsetMatcher = new HashSet<String>();
+		StringBuilder buffer = new StringBuilder();
+		return recursiveSubSequence(inputArray, subsetMatcher, 0, buffer);
+	}
+ 
+	public boolean recursiveSubSequence(char [] inputArray, HashSet<String> subsetMatcher, int start, StringBuilder buffer) {
+		if(buffer.length() >= 2) {
+			if(subsetMatcher.contains(buffer.toString())) {
+				return true;
+			} else {
+				subsetMatcher.add(buffer.toString());
+			}
+		}
+		boolean result = false;
+		for(int i=start; i<inputArray.length; i++) {
+			buffer.append(inputArray[i]);
+			result = recursiveSubSequence(inputArray, subsetMatcher, i+1, buffer);
+			if(result == true) {
+				return true;
+			}
+			buffer.setLength(buffer.length()-1);
+		}
+		
+		return false;
+	}
+	
+	public static void main(String args[]) {
+		Main m = new Main();
+		System.out.println(m.getRepeatedSequence("abba"));
+	}
+}

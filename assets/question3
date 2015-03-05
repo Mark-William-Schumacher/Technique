@@ -1,0 +1,12 @@
+<pre> def mystery1(numbers): </br>
+    n = len(numbers) </br>
+    total = 0 </br>
+    i = 0 </br>
+    while i < len(numbers): </br>
+        j = i </br>
+        while j < len(numbers): </br>
+            total += numbers[i]*numbers[j] </br>
+            j += 2 </br>
+        numbers[i] = total </br>
+        i += 3" </br>
+</pre>

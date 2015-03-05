@@ -1,0 +1,12 @@
+<pre>def mystery3(numbers):  </br>
+    n = len(numbers) </br>
+    i = 0 </br>
+    while i < n: </br>
+        total = 0 </br>
+        j = i </br>
+        while j >= 0: </br>
+            for k in range(0, j): </br>
+                total += numbers[k]-numbers[j] </br>
+            numbers[j] = total </br>
+            j = j - 2 </br>
+        i += 5 </br></pre>

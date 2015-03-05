@@ -1,0 +1,9 @@
+<pre>def mystery4(numbers): </br>
+    n = len(numbers) </br>
+    maxVal = numbers[0] </br>
+    index = n-1 </br>
+    while index > 0: </br>
+        if numbers[index] > maxVal: </br>
+            maxVal = numbers[index] </br>
+        index = (int) (index / 1.5) # division truncated down </br>
+    numbers[0] = maxVal</br> </pre>

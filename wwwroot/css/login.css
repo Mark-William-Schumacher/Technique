@@ -1,0 +1,62 @@
+.logo{
+  padding-left: 10%; /* This is because the form is 400px wide and it looks uneven*/
+}
+
+.login-submit {
+/* We are getting fancy here with the positioning of the button*/
+  position: absolute;
+  top: 140px;
+  right: -25px;
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  border-radius: 32px;
+}
+
+body, .login-submit, .login-submit:before, .login-submit:after {
+  background-color: #313131;
+}
+
+body {
+  height: 100%;
+}
+button{
+  margin: 0px;
+}
+a {
+  color: orange;
+  text-decoration: none;
+}
+a:hover {
+  outline: none;
+  box-shadow: 0px 0px 3pt 3pt orange;
+}
+a:focus{
+  outline: none;
+  box-shadow: 0px 0px 3pt 3pt orange;
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.lt-ie9 input[type=text], .lt-ie9 input[type=password] {
+  line-height: 40px;
+  background: #282828;
+}
+.lt-ie9 .login-submit {
+  position: absolute;
+  top: 12px;
+  right: -28px;
+  padding: 4px;
+}
+.lt-ie9 .login-submit:before, .lt-ie9 .login-submit:after {
+  display: none;
+}
+.lt-ie9 .login-button {
+  line-height: 48px;
+}
+.lt-ie9 .about {
+  background: #313131;
+}
