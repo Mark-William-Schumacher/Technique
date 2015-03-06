@@ -1,5 +1,6 @@
 # Technique
 A project website build to help students practice BIG-O notation. Uses SQL , php, javascript , html css. Built this site to implement and put into action some of skills I've learned throughout undergrad, web development, database management. 
+<img src="https://github.com/Mark-William-Schumacher/Technique/blob/master/assets/ReadmePics/QuestionsPage.png" height=250px>
 
 ## Database Schema (Queries done via querys.php)
 This schemas been working great, I’m not doing many inner joins to access the
@@ -43,6 +44,3 @@ after	registering/technique/wwwroot /javascript/checkregistration.js	=	validatio
 submission	form	and	ajax	calls	to	db	
 /technique/wwwroot /javascript/checklogin.js	=	ajax	calls	to	db	to	check	if	login	
 validate	before	moving	to	main	and	attempting	login.	
-
-<img src="https://github.com/Mark-William-Schumacher/Technique/blob/master/assets/ReadmePics/QuestionsPage.png
-" height=500px > 
