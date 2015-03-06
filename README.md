@@ -12,7 +12,7 @@ than once.
 The question table question_file and the solution_file (which are the choices for each
 question), the difficulty is currently unused , but we can use this and the users score to
 potentially scale questions 
-<img src="https://raw.githubusercontent.com/Mark-William-Schumacher/Technique/master/assets/ReadmePics/DatabaseScema.png" height=250px > 
+<img src="https://raw.githubusercontent.com/Mark-William-Schumacher/Technique/master/assets/ReadmePics/DatabaseScema.png" height=500px > 
 
 ##Detailed List of Files
 /technique/assets						=	Folder	containing	the	questions	and	answers	for	safe	
