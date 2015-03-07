@@ -1,4 +1,4 @@
-<?php
+<?php 
 include "php/buildingTools.php";
 $styleSheets=array("css/default.css");
 createHeader($styleSheets, "Sign-up NOW");

@@ -1,7 +1,7 @@
 # Technique
 A project website build to help students practice BIG-O notation. Uses SQL , php, javascript , html css. Built this site to implement and put into action some of skills I've learned throughout undergrad, web development, database management. 
 
-<img src="https://github.com/Mark-William-Schumacher/Technique/blob/master/assets/ReadmePics/QuestionsPage.png" height=400px>
+<img src="https://github.com/Mark-William-Schumacher/Technique/blob/master/assets/ReadmePics/QuestionsPage.png" height=400px> 
 
 ## Database Schema (Queries done via querys.php)
 This schemas been working great, I’m not doing many inner joins to access the
