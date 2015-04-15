@@ -1,4 +1,4 @@
-# Technique
+# Technique markshoe.com/Technique
 Check out my hosted version at my site markshoe.com/Technique
 
 A project website build to help students practice BIG-O notation. Uses SQL , php, javascript , html css. Built this site to implement and put into action some of skills I've learned throughout undergrad, web development, database management. 
